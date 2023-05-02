@@ -13,13 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>devopsspringboot</name>
 	<description>this is demo spring Boot project for Devops assignment</description>
-	
-		<properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-    <maven.compiler.release>11</maven.compiler.release>
-</properties>
-	
+	<properties>
+		<java.version>17</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,6 +40,11 @@
             </configuration>
 			</plugin>
 		</plugins>
+		<finalName>devops-integration</finalName>
 	</build>
 
+	
+
 </project>
+
+		
